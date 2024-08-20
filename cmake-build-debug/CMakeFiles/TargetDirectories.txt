@@ -1,0 +1,3 @@
+C:/Users/SamiH/Desktop/Github Projects/stock-market-analysis/cmake-build-debug/CMakeFiles/stock_market_analysis.dir
+C:/Users/SamiH/Desktop/Github Projects/stock-market-analysis/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/SamiH/Desktop/Github Projects/stock-market-analysis/cmake-build-debug/CMakeFiles/rebuild_cache.dir

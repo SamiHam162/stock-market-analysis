@@ -1,0 +1,15 @@
+# ninja log v6
+15	1577	7458691720016661	CMakeFiles/stock_market_analysis.dir/main.cpp.obj	43e44472de3e0555
+61	5508	7458750328799197	CMakeFiles/stock_market_analysis.dir/src/utils/ThreadPool.cpp.obj	a0d77e6386bd1979
+8	8267	7458774305044116	build.ninja	8f36ccfcfcd17460
+88	13371	7458750329089806	CMakeFiles/stock_market_analysis.dir/src/DataFetcher.cpp.obj	a9d875dcc3401389
+10	7580	7458750328293887	CMakeFiles/stock_market_analysis.dir/src/utils/HttpClient.cpp.obj	6828d4e817abcd5c
+23	9651	7458756000162364	CMakeFiles/stock_market_analysis.dir/src/main.cpp.obj	756cd75c111b6c48
+40	11874	7458750328599238	CMakeFiles/stock_market_analysis.dir/src/utils/JSONParser.cpp.obj	da992c07509d67fc
+9653	17160	7458756096473505	stock_market_analysis.exe	f622e734600d830d
+8	2223	7458738503474076	CMakeFiles/test_plot.dir/src/testplot.cpp.obj	ec1c630c670a2ce9
+25	1725	7458743547856287	test_plot.exe	929377b896bafe7b
+170	4744	7458750329894766	CMakeFiles/stock_market_analysis.dir/src/DataProcessor.cpp.obj	94ceb7f97d975686
+4760	7291	7458750375799034	CMakeFiles/stock_market_analysis.dir/src/Predictor.cpp.obj	1c61feed9ff0a280
+5515	9746	7458750383350206	CMakeFiles/stock_market_analysis.dir/src/Visualizer.cpp.obj	4e345fb9c94b2e15
+7291	9794	7458750401106368	CMakeFiles/stock_market_analysis.dir/src/AlertManager.cpp.obj	e24540c22651670b

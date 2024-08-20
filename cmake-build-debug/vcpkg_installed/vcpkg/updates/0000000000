@@ -1,0 +1,8 @@
+Package: gtest
+Version: 1.15.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: ee43260179e668a8e795f5f5be24029f7dd2e29813f73fe30dca1c1d0e7f7c25
+Description: Google Testing and Mocking Framework
+Status: install ok half-installed

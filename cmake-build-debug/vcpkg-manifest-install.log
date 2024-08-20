@@ -1,0 +1,87 @@
+Detecting compiler hash for triplet x64-mingw-dynamic...
+Compiler found: C:/TDM-GCC-64/bin/x86_64-w64-mingw32-g++.exe
+The following packages will be built and installed:
+    gtest:x64-mingw-dynamic@1.15.2 -- C:\Users\SamiH\.clion-vcpkg\vcpkg\buildtrees\versioning_\versions\gtest\9ac644e3ba0475ca37d4b50913f93920bee7ee38
+Restored 0 package(s) from C:\Users\SamiH\AppData\Local\vcpkg\archives in 228 us. Use --debug to see more details.
+Installing 1/1 gtest:x64-mingw-dynamic@1.15.2...
+Building gtest:x64-mingw-dynamic@1.15.2...
+C:\Users\SamiH\.clion-vcpkg\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\SamiH\.clion-vcpkg\vcpkg\buildtrees\versioning_\versions\gtest\9ac644e3ba0475ca37d4b50913f93920bee7ee38: info: installing overlay port from here
+-- Downloading https://github.com/google/googletest/archive/v1.15.2.tar.gz -> google-googletest-v1.15.2.tar.gz...
+-- Extracting source C:/Users/SamiH/.clion-vcpkg/vcpkg/downloads/google-googletest-v1.15.2.tar.gz
+-- Applying patch 001-fix-UWP-death-test.patch
+-- Applying patch clang-tidy-no-lint.patch
+-- Applying patch fix-main-lib-path.patch
+-- Using source at C:/Users/SamiH/.clion-vcpkg/vcpkg/buildtrees/gtest/src/v1.15.2-41f5afb119.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest_main.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-all.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-assertion-result.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-death-test.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-filepath.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-internal-inl.h
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-matchers.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-port.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-printers.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-test-part.cc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/src/gtest-typed-test.cc
+-- Fixing pkgconfig file: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/lib/pkgconfig/gmock.pc
+-- Fixing pkgconfig file: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/lib/pkgconfig/gmock_main.pc
+-- Fixing pkgconfig file: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/lib/pkgconfig/gtest.pc
+-- Fixing pkgconfig file: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/lib/pkgconfig/gtest_main.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/SamiH/.clion-vcpkg/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+-- Fixing pkgconfig file: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/debug/lib/pkgconfig/gmock.pc
+-- Fixing pkgconfig file: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/debug/lib/pkgconfig/gmock_main.pc
+-- Fixing pkgconfig file: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/debug/lib/pkgconfig/gtest.pc
+-- Fixing pkgconfig file: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/debug/lib/pkgconfig/gtest_main.pc
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/share/gtest/copyright
+-- Installing: C:/Users/SamiH/.clion-vcpkg/vcpkg/packages/gtest_x64-mingw-dynamic/share/gtest/usage
+-- Performing post-build validation
+C:\Users\SamiH\.clion-vcpkg\vcpkg\buildtrees\versioning_\versions\gtest\9ac644e3ba0475ca37d4b50913f93920bee7ee38\portfile.cmake: warning: DLLs that link with obsolete C RunTime ("CRT") DLLs were installed. Installed DLLs should link with an in-support CRT. You can inspect the dependencies of a DLL with `dumpbin.exe /dependents mylibfile.dll`. If you're using a custom triplet targeting an old CRT, add set(VCPKG_POLICY_ALLOW_OBSOLETE_MSVCRT enabled) to the triplet's .cmake file. To suppress this message for this port, add set(VCPKG_POLICY_ALLOW_OBSOLETE_MSVCRT enabled)
+C:\Users\SamiH\.clion-vcpkg\vcpkg\packages\gtest_x64-mingw-dynamic: note: the DLLs are relative to ${CURRENT_PACKAGES_DIR} here
+note: debug/bin/libgmock.dll
+note: debug/bin/libgmock_main.dll
+note: debug/bin/libgtest.dll
+note: debug/bin/libgtest_main.dll
+note: bin/libgmock.dll
+note: bin/libgmock_main.dll
+note: bin/libgtest.dll
+note: bin/libgtest_main.dll
+C:\Users\SamiH\.clion-vcpkg\vcpkg\buildtrees\versioning_\versions\gtest\9ac644e3ba0475ca37d4b50913f93920bee7ee38\portfile.cmake: warning: Found 1 post-build check problem(s). These are usually caused by bugs in portfile.cmake or the upstream build system. Please correct these before submitting this port to the curated registry.
+Stored binaries in 1 destinations in 1.6 s.
+Elapsed time to handle gtest:x64-mingw-dynamic: 58 s
+gtest:x64-mingw-dynamic package ABI: ee43260179e668a8e795f5f5be24029f7dd2e29813f73fe30dca1c1d0e7f7c25
+Total install time: 58 s
+curl is compatible with built-in CMake targets:
+
+    find_package(CURL REQUIRED)
+    target_link_libraries(main PRIVATE CURL::libcurl)
+
+The package gtest is compatible with built-in CMake targets:
+
+    enable_testing()
+    
+    find_package(GTest CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
+    
+    add_test(AllTestsInMain main)
+
+The package nlohmann-json provides CMake targets:
+
+    find_package(nlohmann_json CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)
+
+The package nlohmann-json can be configured to not provide implicit conversions via a custom triplet file:
+
+    set(nlohmann-json_IMPLICIT_CONVERSIONS OFF)
+
+For more information, see the docs here:
+    
+    https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
+
